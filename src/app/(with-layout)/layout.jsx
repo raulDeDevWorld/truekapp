@@ -105,9 +105,9 @@ function Home({ children }) {
           {children}
 
         </div>
-        {<div className="fixed bottom-0  z-30 w-full h-[65px] bg-[#38ABD2] rounded-t-[40px] lg:hidden">
+        {/* {<div className="fixed bottom-0  z-30 w-full h-[65px] bg-[#38ABD2] rounded-t-[40px] lg:hidden">
           <BottomNavigation rol={'Cliente'} />
-        </div>}
+        </div>} */}
         {/* {user && user !== undefined && <div className="fixed bottom-0  z-30 w-full h-[65px] bg-gray-50 border-t-8 border-white rounded-t-[40px] lg:hidden">
           <BottomNavigation rol={user.rol} />
         </div>} */}

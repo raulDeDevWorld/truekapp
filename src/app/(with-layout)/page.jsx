@@ -64,12 +64,12 @@ export default function Home() {
     setUserProfile(null)
     setUserCart({})
     setUserProduct(undefined),
-    setRecetaDB(undefined),
-    setUserDistributorPDB(undefined)
+      setRecetaDB(undefined),
+      setUserDistributorPDB(undefined)
     setUserData(null)
     setModal('')
-   return  router.push('/')
-}
+    return router.push('/')
+  }
   console.log(user)
   console.log(userDB)
 
@@ -116,27 +116,33 @@ export default function Home() {
 
 
       </nav> */}
+      <div className='w-full flex justify-center items-center py-12'>
+
+        <img src="/logo.png" className='h-[auto] w-[50vw]' alt="" />
 
 
-      <div className='w-screen pb-[80px]'>
+      </div>
+
+
+      <div className='w-screen   shadow-2xl'>
 
 
         <AutoplaySlider className='relative ' cssModule={{ backgroundColor: 'red' }} play={true} interval={3000} buttons={false} bullets={false}>
 
 
-          <div className='bg-[#ffffffc5] h-full w-full text-black p-5'>
+          <div className='bg-[#ffffff] h-full w-full text-black p-5 shadow-2xl'>
             <p>Con TRUEK APP obten prestamos agiles sin mucha burocracia.</p>
             <img src="/prestar.png" alt="" />
           </div>
-          <div className='bg-white h-full w-full text-black p-5'>
+          <div className='bg-white h-full w-full text-black p-5 shadow-2xl'>
             <p>Con TRUEK APP obten prestamos para semanas o meses.</p>
             <img src="/prestar.png" alt="" />
           </div>
-          <div className='bg-white h-full w-full text-black p-5'>
+          <div className='bg-white h-full w-full text-black p-5 shadow-2xl'>
             <p>Con TRUEK APP conviertete en un inversor y gana hasta un 20% anual en tus inversiones.</p>
             <img src="/invertir.png" alt="" />
           </div>
-          <div className='bg-white h-full w-full text-black p-5'>
+          <div className='bg-white h-full w-full text-black p-5 shadow-2xl'>
             <p>Con TRUEK APP puedes invertir y ganar intereses en 3 meses.</p>
             <img src="/invertir.png" alt="" />
           </div>
